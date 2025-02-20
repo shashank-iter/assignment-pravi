@@ -67,7 +67,7 @@ function MainTable() {
                             row.actualTime.isLate === true ? "text-red-500" : ""
                           } ${
                             row.actualTime.isLate === false
-                              ? "text-yellow-600"
+                              ? "text-yellow-500"
                               : ""
                           } ${
                             row.actualTime.isLate === "ontime"
